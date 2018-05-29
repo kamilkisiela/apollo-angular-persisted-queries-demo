@@ -1,0 +1,14 @@
+{
+  "name": "apollo-auto-persisted-queries",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "posttinstall": "yarn lerna bootstrap",
+    "start": "lerna run --parallel start",
+    "test": "lerna run --parallel test"
+  },
+  "devDependencies": {
+    "lerna": "^2.11.0"
+  }
+}
